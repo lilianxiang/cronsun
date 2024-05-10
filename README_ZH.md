@@ -79,6 +79,16 @@ go mod vendor
 sh build.sh
 ```
 
+```
+wget https://github.com/lilianxiang/cronsun/archive/refs/heads/master.zip
+unzip master.zip 
+cd cronsun-master/
+go get ./...
+go mod vendor
+sh build.sh 
+```
+
+
 ### 运行
 
 1. 安装 [MongoDB](http://docs.mongodb.org/manual/installation/)
